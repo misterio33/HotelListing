@@ -5,13 +5,9 @@
     <projectFile profileName="IIS Express">HotelListing.API/HotelListing.API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8d6ed74-0bc8-4eb7-81b5-834f5790b95c" name="Changes" comment="Added HotelController">
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Models/Hotel/BaseHotelDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Models/Hotel/CreateHotelDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Models/Hotel/UpdateHotelDto.cs" afterDir="false" />
+    <list default="true" id="f8d6ed74-0bc8-4eb7-81b5-834f5790b95c" name="Changes" comment="Added mapping profiles">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotelListing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotelListing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/Controllers/HotelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Controllers/HotelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/Models/Hotel/HotelDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Models/Hotel/HotelDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelListing.API/Models/Hotel/CreateHotelDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Models/Hotel/CreateHotelDto.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +24,7 @@
     <setting file="file://$PROJECT_DIR$/HotelListing.API/Controllers/CountriesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Pasha/source/repos/HotelListing/HotelListing.API/Controllers/CountriesController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HotelListing.API/MapperConfigurations/MapperProfile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Pasha/source/repos/HotelListing/HotelListing.API/MapperConfigurations/MapperProfile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Pasha/source/repos/HotelListing/HotelListing.API/Models/Country/CountryDto.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Pasha/source/repos/HotelListing/HotelListing.API/Models/Country/CountryDto.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Pasha/source/repos/HotelListing/HotelListing.API/Models/Country/GetCountryDto.cs" root0="SKIP_HIGHLIGHTING" />
@@ -54,7 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ToolWindowAWS Toolkit.ShowToolbar": "false",
     "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "HotReloadSettingsPage",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -100,7 +97,7 @@
       <updated>1658080984434</updated>
       <workItem from="1658080985083" duration="3140000" />
       <workItem from="1658136657849" duration="1801000" />
-      <workItem from="1658257801304" duration="11306000" />
+      <workItem from="1658257801304" duration="11764000" />
     </task>
     <task id="LOCAL-00001" summary="Added DTOs, Repository pattern, refactored controller">
       <created>1658340888993</created>
@@ -130,7 +127,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658342158456</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added DTOs and refactored Hotels controller">
+      <created>1658343159520</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658343159520</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added mapping profiles">
+      <created>1658343306376</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658343306376</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +166,9 @@
     <MESSAGE value="Fixes" />
     <MESSAGE value="Added HotelsRepository and Hotel controller" />
     <MESSAGE value="Added HotelController" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added HotelController" />
+    <MESSAGE value="Added DTOs and refactored Hotels controller" />
+    <MESSAGE value="Added mapping profiles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added mapping profiles" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
