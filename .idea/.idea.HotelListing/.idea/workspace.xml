@@ -5,14 +5,13 @@
     <projectFile profileName="IIS Express">HotelListing.API/HotelListing.API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8d6ed74-0bc8-4eb7-81b5-834f5790b95c" name="Changes" comment="Fixes">
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Contracts/IHotelsRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Repository/HotelsRepository.cs" afterDir="false" />
+    <list default="true" id="f8d6ed74-0bc8-4eb7-81b5-834f5790b95c" name="Changes" comment="Added HotelController">
+      <change afterPath="$PROJECT_DIR$/HotelListing.API/Models/Hotel/BaseHotelDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HotelListing.API/Models/Hotel/CreateHotelDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HotelListing.API/Models/Hotel/UpdateHotelDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotelListing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotelListing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/HotelListing.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/HotelListing.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelListing.API/Controllers/HotelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Controllers/HotelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelListing.API/Models/Hotel/HotelDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Models/Hotel/HotelDto.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,7 @@
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/69a6423685776cfa8c4b54bf4d63ec1880352fc5426dbfe8dac256f86449bbda/Mapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HotelListing.API/Contracts/ICountriesRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HotelListing.API/Contracts/IGenericRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HotelListing.API/Controllers/CountriesController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -52,6 +52,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowAWS Toolkit.ShowToolbar": "false",
     "WebServerToolWindowFactoryState": "false",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
@@ -99,7 +100,7 @@
       <updated>1658080984434</updated>
       <workItem from="1658080985083" duration="3140000" />
       <workItem from="1658136657849" duration="1801000" />
-      <workItem from="1658257801304" duration="10347000" />
+      <workItem from="1658257801304" duration="11306000" />
     </task>
     <task id="LOCAL-00001" summary="Added DTOs, Repository pattern, refactored controller">
       <created>1658340888993</created>
@@ -115,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658341070694</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added HotelsRepository and Hotel controller">
+      <created>1658342137738</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658342137738</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added HotelController">
+      <created>1658342158456</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658342158456</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +153,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Added DTOs, Repository pattern, refactored controller" />
     <MESSAGE value="Fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixes" />
+    <MESSAGE value="Added HotelsRepository and Hotel controller" />
+    <MESSAGE value="Added HotelController" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added HotelController" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
