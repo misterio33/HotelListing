@@ -6,25 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8d6ed74-0bc8-4eb7-81b5-834f5790b95c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Contracts/IAuthManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Controllers/AccountController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Data/ApiUser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Data/Configurations/CountryConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Data/Configurations/HotelConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Data/Configurations/RoleConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Migrations/20220721163910_AddedDefaultRoles.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Migrations/20220721163910_AddedDefaultRoles.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Models/Users/ApiUserDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Models/Users/AuthResponseDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Models/Users/LoginDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Repository/AuthManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotelListing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotelListing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/Data/HotelListingDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Data/HotelListingDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/HotelListing.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/HotelListing.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/MapperConfigurations/MapperProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/MapperConfigurations/MapperProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/Migrations/HotelListingDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Migrations/HotelListingDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelListing.API/Controllers/CountriesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Controllers/CountriesController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,19 +42,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindowAWS Toolkit.ShowToolbar": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "true",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "HotReloadSettingsPage",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowAWS Toolkit.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;HotReloadSettingsPage&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.HotelListing.API">
     <configuration name="HotelListing.API" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/HotelListing.API/HotelListing.API.csproj" />
@@ -115,7 +98,7 @@
       <workItem from="1658080985083" duration="3140000" />
       <workItem from="1658136657849" duration="1801000" />
       <workItem from="1658257801304" duration="15652000" />
-      <workItem from="1658420141690" duration="9843000" />
+      <workItem from="1658420141690" duration="11122000" />
     </task>
     <task id="LOCAL-00001" summary="Added DTOs, Repository pattern, refactored controller">
       <created>1658340888993</created>
@@ -166,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658343690435</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added Roles and JWT token generation">
+      <created>1658491515655</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658491515665</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +185,8 @@
     <MESSAGE value="Added DTOs and refactored Hotels controller" />
     <MESSAGE value="Added mapping profiles" />
     <MESSAGE value="Fixed CreateHotelDto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed CreateHotelDto" />
+    <MESSAGE value="Added Roles and JWT token generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Roles and JWT token generation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
