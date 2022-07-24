@@ -5,14 +5,20 @@
     <projectFile profileName="IIS Express">HotelListing.API/HotelListing.API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8d6ed74-0bc8-4eb7-81b5-834f5790b95c" name="Changes" comment="">
+    <list default="true" id="f8d6ed74-0bc8-4eb7-81b5-834f5790b95c" name="Changes" comment="Added refresh token and swagger security">
+      <change afterPath="$PROJECT_DIR$/HotelListing.API/Exceptions/NotFoundException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HotelListing.API/Middleware/CachingMiddleware.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HotelListing.API/Middleware/ExceptionMiddleware.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HotelListing.API/Models/PagedResult.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HotelListing.API/Models/QueryParameters.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotelListing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotelListing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/Contracts/IAuthManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Contracts/IAuthManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelListing.API/Contracts/IGenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Contracts/IGenericRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HotelListing.API/Controllers/CountriesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Controllers/CountriesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/Models/Users/AuthResponseDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Models/Users/AuthResponseDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelListing.API/Controllers/HotelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Controllers/HotelController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HotelListing.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/Repository/AuthManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Repository/AuthManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelListing.API/Repository/CountriesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Repository/CountriesRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelListing.API/Repository/GenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Repository/GenericRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelListing.API/Repository/HotelsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Repository/HotelsRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +34,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/69a6423685776cfa8c4b54bf4d63ec1880352fc5426dbfe8dac256f86449bbda/Mapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HotelListing.API/Contracts/ICountriesRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HotelListing.API/Contracts/IGenericRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Pasha/source/repos/HotelListing/HotelListing.API/Controllers/AccountController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HotelListing.API/Controllers/CountriesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HotelListing.API/MapperConfigurations/MapperProfile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HotelListing.API/Models/Country/UpdateCountryDto.cs" root0="FORCE_HIGHLIGHTING" />
@@ -105,7 +112,7 @@
       <workItem from="1658257801304" duration="15652000" />
       <workItem from="1658420141690" duration="11122000" />
       <workItem from="1658583058590" duration="217000" />
-      <workItem from="1658677447213" duration="3429000" />
+      <workItem from="1658677447213" duration="10271000" />
     </task>
     <task id="LOCAL-00001" summary="Added DTOs, Repository pattern, refactored controller">
       <created>1658340888993</created>
@@ -170,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658583249430</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added refresh token and swagger security">
+      <created>1658681061075</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658681061075</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +215,8 @@
     <MESSAGE value="Fixed CreateHotelDto" />
     <MESSAGE value="Added Roles and JWT token generation" />
     <MESSAGE value="Added authorization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added authorization" />
+    <MESSAGE value="Added refresh token and swagger security" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added refresh token and swagger security" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
