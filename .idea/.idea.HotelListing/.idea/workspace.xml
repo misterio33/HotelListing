@@ -5,7 +5,7 @@
     <projectFile profileName="IIS Express">HotelListing.API/HotelListing.API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8d6ed74-0bc8-4eb7-81b5-834f5790b95c" name="Changes" comment="Added Logging, Global error handling, Caching, added Paging" />
+    <list default="true" id="f8d6ed74-0bc8-4eb7-81b5-834f5790b95c" name="Changes" comment="Deleted unused file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +98,7 @@
       <workItem from="1658257801304" duration="15652000" />
       <workItem from="1658420141690" duration="11122000" />
       <workItem from="1658583058590" duration="217000" />
-      <workItem from="1658677447213" duration="10579000" />
+      <workItem from="1658677447213" duration="10991000" />
     </task>
     <task id="LOCAL-00001" summary="Added DTOs, Repository pattern, refactored controller">
       <created>1658340888993</created>
@@ -177,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658690784862</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Deleted unused file">
+      <created>1658690969561</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658690969561</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +217,8 @@
     <MESSAGE value="Added authorization" />
     <MESSAGE value="Added refresh token and swagger security" />
     <MESSAGE value="Added Logging, Global error handling, Caching, added Paging" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Logging, Global error handling, Caching, added Paging" />
+    <MESSAGE value="Deleted unused file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted unused file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
