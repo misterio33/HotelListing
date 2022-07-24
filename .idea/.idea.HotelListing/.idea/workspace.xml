@@ -5,21 +5,7 @@
     <projectFile profileName="IIS Express">HotelListing.API/HotelListing.API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8d6ed74-0bc8-4eb7-81b5-834f5790b95c" name="Changes" comment="Added refresh token and swagger security">
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Exceptions/NotFoundException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Middleware/CachingMiddleware.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Middleware/ExceptionMiddleware.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Models/PagedResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Models/QueryParameters.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotelListing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotelListing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/Contracts/IGenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Contracts/IGenericRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/Controllers/CountriesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Controllers/CountriesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/Controllers/HotelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Controllers/HotelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/Repository/CountriesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Repository/CountriesRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/Repository/GenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Repository/GenericRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/Repository/HotelsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Repository/HotelsRepository.cs" afterDir="false" />
-    </list>
+    <list default="true" id="f8d6ed74-0bc8-4eb7-81b5-834f5790b95c" name="Changes" comment="Added Logging, Global error handling, Caching, added Paging" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +98,7 @@
       <workItem from="1658257801304" duration="15652000" />
       <workItem from="1658420141690" duration="11122000" />
       <workItem from="1658583058590" duration="217000" />
-      <workItem from="1658677447213" duration="10271000" />
+      <workItem from="1658677447213" duration="10579000" />
     </task>
     <task id="LOCAL-00001" summary="Added DTOs, Repository pattern, refactored controller">
       <created>1658340888993</created>
@@ -184,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658681061075</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added Logging, Global error handling, Caching, added Paging">
+      <created>1658690784862</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658690784862</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +209,8 @@
     <MESSAGE value="Added Roles and JWT token generation" />
     <MESSAGE value="Added authorization" />
     <MESSAGE value="Added refresh token and swagger security" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added refresh token and swagger security" />
+    <MESSAGE value="Added Logging, Global error handling, Caching, added Paging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Logging, Global error handling, Caching, added Paging" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
