@@ -5,7 +5,15 @@
     <projectFile profileName="IIS Express">HotelListing.API/HotelListing.API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8d6ed74-0bc8-4eb7-81b5-834f5790b95c" name="Changes" comment="Deleted unused file" />
+    <list default="true" id="f8d6ed74-0bc8-4eb7-81b5-834f5790b95c" name="Changes" comment="Added OData to the project">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotelListing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotelListing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelListing.API/Contracts/ICountriesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Contracts/ICountriesRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelListing.API/Contracts/IGenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Contracts/IGenericRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelListing.API/Controllers/CountriesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Controllers/CountriesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelListing.API/Controllers/HotelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Controllers/HotelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelListing.API/Repository/CountriesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Repository/CountriesRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelListing.API/Repository/GenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Repository/GenericRepository.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +29,7 @@
     <setting file="file://$PROJECT_DIR$/HotelListing.API/Contracts/ICountriesRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HotelListing.API/Contracts/IGenericRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Pasha/source/repos/HotelListing/HotelListing.API/Controllers/AccountController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Pasha/source/repos/HotelListing/HotelListing.API/Controllers/CountriesController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HotelListing.API/Controllers/CountriesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HotelListing.API/MapperConfigurations/MapperProfile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HotelListing.API/Models/Country/UpdateCountryDto.cs" root0="FORCE_HIGHLIGHTING" />
